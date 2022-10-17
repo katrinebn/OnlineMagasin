@@ -15,7 +15,24 @@ header{
     padding-left: 5%;
     padding-right: 5%;
 
-    position: fixed;
     top: 0px;
     background-color: #FCF5EF;
+
+    /*Position fixed*/
+    position: fixed;
+    top: 0px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #2E4382;
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16pt;
+}
+
+header nav{
+    display:flex;
+    width: 80%;
+    justify-content: space-around;
 }
