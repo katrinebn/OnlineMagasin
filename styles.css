@@ -129,3 +129,21 @@ h3{
     width: auto;
     margin: 10px;
 }
+
+
+/*KULTUR - SU-VENLIGE CAFÉER*/
+.lynfabrikken{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+/*OVERORDNET FOR ARTIKLERNE*/
+article{
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: justify;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 25px;
+}
