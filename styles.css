@@ -138,6 +138,12 @@ h3{
     margin: 20px;
 }
 
+.forårsruller{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
 /*OVERORDNET FOR ARTIKLERNE*/
 article{
     padding-left: 25%;
@@ -146,4 +152,8 @@ article{
     letter-spacing: 1px;
     word-spacing: 2px;
     line-height: 25px;
+}
+
+article h1{
+    margin-bottom: 20px;
 }
