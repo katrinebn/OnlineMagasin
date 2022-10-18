@@ -56,7 +56,7 @@ h1{
     text-align: center;
     font-family: 'Libre Baskerville', serif;
     font-size: 20pt;
-    font-weight: 100;
+    font-weight: normal;
     letter-spacing: 1px;
     margin: 5px;
 }
@@ -89,18 +89,43 @@ h1{
 }
 
 .cardscontainer div h2{
-    text-transform: uppercase;
     font-size: 16pt;
-    font-weight: 300;
+    font-weight:bold;
     margin: 5px;
+    letter-spacing: 1px;
 }
 
 .cardscontainer div p{
-    font-size: 14pt;
-    font-weight: 100;
+    font-size: 13pt;
+    font-weight:lighter;
     line-height: 25px;
     margin: 5px;
+    letter-spacing: 1px;
 }
 
 
 /*FOOTER*/
+footer{
+    background-color: #FCF5EF;
+    margin-top: 20px;
+}
+
+h3{
+    font-family:'Libre Baskerville', serif;
+    font-size: 16pt;
+    text-align: center;
+    font-weight:bold;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+.findos{
+    display: flex;
+    justify-content: center;
+}
+
+#fb , #insta{
+    height: 50px;
+    width: auto;
+    margin: 10px;
+}
