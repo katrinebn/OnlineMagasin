@@ -71,7 +71,7 @@ h1{
 /*DE TRE CARDSCONTAINERS*/
 .cardscontainer{
     min-width: 1100px;
-    margin: 0 30 30 30;
+    margin: 30;
     
     display: flex;
     justify-content: space-around;
@@ -150,4 +150,20 @@ article{
 
 article h1{
     margin-bottom: 20px;
+}
+
+/*CARDSCONTAINERS I MODE ARTIKEL*/
+.cardscontainermode{
+    display: flex;
+    justify-content: space-around;
+
+    min-width: 1100px;
+    margin: 30px;
+}
+
+.cardscontainer div h4{
+    font-size: 16pt;
+    font-weight:bold;
+    margin: 5px;
+    letter-spacing: 1px;
 }
