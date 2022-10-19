@@ -58,7 +58,7 @@ h1{
     font-size: 20pt;
     font-weight: normal;
     letter-spacing: 1px;
-    margin: 5px;
+    margin: 15px;
 }
 
  hr{
@@ -131,14 +131,8 @@ h3{
 }
 
 
-/*KULTUR - SU-VENLIGE CAFÉER*/
-.lynfabrikken{
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-}
-
-.forårsruller{
+/*BILLEDER I ARTIKLERNE*/
+.lynfabrikken , .forårsruller , .getthelook{
     display: flex;
     justify-content: center;
     margin: 20px;
